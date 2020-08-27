@@ -1,0 +1,33 @@
+[tool.briefcase]
+project_name = "BookOps Test App"
+bundle = "org.bookops"
+version = "0.0.1"
+url = "https://bookops.org/bookopstestapp"
+license = "MIT license"
+author = 'Tomasz Kalata'
+author_email = "tomaszkalata@bookops.org"
+
+[tool.briefcase.app.bookopstestapp]
+formal_name = "BookOps Test App"
+description = "briefcase packaging testing app"
+icon = "src/bookopstestapp/resources/bookopstestapp"
+sources = ['src/bookopstestapp']
+requires = []
+
+
+[tool.briefcase.app.bookopstestapp.macOS]
+requires = []
+
+[tool.briefcase.app.bookopstestapp.linux]
+requires = []
+system_requires = []
+
+[tool.briefcase.app.bookopstestapp.windows]
+requires = []
+
+# Mobile deployments
+[tool.briefcase.app.bookopstestapp.iOS]
+requires = []
+
+[tool.briefcase.app.bookopstestapp.android]
+requires = []

@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Briefcase-Version: 0.3.3
+Name: bookopstestapp
+Formal-Name: BookOps Test App
+App-ID: org.bookops.bookopstestapp
+Version: 0.0.1
+Home-page: https://bookops.org/bookopstestapp
+Author: Tomasz Kalata
+Author-email: tomaszkalata@bookops.org
+Summary: briefcase packaging testing app
